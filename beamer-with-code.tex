@@ -1,0 +1,80 @@
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{verbatim}
+
+% Umlaute und ß in Listings
+\lstset{basicstyle=\ttfamily}
+\lstset{literate=%
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
+}
+
+% Farben für Listings
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=t,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+	language=[LaTeX]{TeX}
+}
+ 
+\lstset{style=mystyle}
+
+\definecolor{hbbkBlueish}{HTML}{5e7b87}
+\definecolor{hbbkReal}{HTML}{1A4354}
+\setbeamercolor{logo}{bg=white}  %controls the color of the logo area
+\setbeamercolor{author in sidebar}{fg=white} 
+\setbeamercolor{palette primary}{bg=hbbkBlueish,fg=white}
+\setbeamercolor{palette secondary}{bg=hbbkBlueish,fg=white}
+\setbeamercolor{palette tertiary}{bg=hbbkBlueish,fg=white}
+\setbeamercolor{palette quaternary}{bg=hbbkBlueish,fg=white}
+\setbeamercolor{structure}{fg=hbbkBlueish} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=hbbkReal} % TOC sections
+\setbeamertemplate{navigation symbols}{}
+
+
+\usetheme{PaloAlto}
+\renewcommand{\footnotesize}{\small}
+\newcommand{\pftn}[1]{\let\thefootnote\relax\footnotetext{\tiny #1}}
+\newcommand{\ftn}[2]{\footnote[#1]{\tiny #2}}
+\newenvironment{hlbox}{\begin{tcolorbox}[enhanced,colback=white,colframe=white,sharpish corners,fuzzy halo=0.5mm with lightgray]}{\end{tcolorbox}}
+\logo{\includegraphics[width=0.155\linewidth]{hbbk-logo}}
+\author{Luca Kiebel}
