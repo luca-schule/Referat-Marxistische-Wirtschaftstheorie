@@ -1,1 +1,14 @@
 \select@language {ngerman}
+\beamer@sectionintoc {1}{Wert- und Geldtheorie}{2}{0}{1}
+\beamer@sectionintoc {2}{Das Kapital}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Kapitalteile nach ihrem Verhalten in der Produktion}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Die Zusammensetzung des Kapitals}{4}{0}{2}
+\beamer@subsectionintoc {2}{3}{Kapitalteile nach ihrem Verhalten in der (Wert-)Zirkulation}{4}{0}{2}
+\beamer@subsectionintoc {2}{4}{Lohn und Mehrwert}{4}{0}{2}
+\beamer@subsectionintoc {2}{5}{Der Neuwert}{4}{0}{2}
+\beamer@subsectionintoc {2}{6}{Profit und Profitarten}{4}{0}{2}
+\beamer@subsectionintoc {2}{7}{Tendenzieller Fall der Profitrate}{4}{0}{2}
+\beamer@subsectionintoc {2}{8}{Die Reproduktion des Kapitals}{4}{0}{2}
+\beamer@subsectionintoc {2}{9}{Die Konkurrenz}{4}{0}{2}
+\beamer@sectionintoc {3}{Kritik der politischen \IeC {\"O}konomie}{4}{0}{3}
+\beamer@sectionintoc {4}{Preisarten}{5}{0}{4}
