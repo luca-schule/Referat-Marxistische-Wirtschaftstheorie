@@ -3,7 +3,7 @@
 \beamer@subsectionintoc {1}{1}{Wert einer Ware}{6}{0}{1}
 \beamer@subsectionintoc {1}{2}{Was ist Geld?}{11}{0}{1}
 \beamer@sectionintoc {2}{Das Kapital}{16}{0}{2}
-\beamer@subsectionintoc {2}{1}{Die Zusammensetzung des Kapitals}{17}{0}{2}
-\beamer@subsectionintoc {2}{2}{Die Reproduktion des Kapitals}{17}{0}{2}
-\beamer@sectionintoc {3}{Kritik der politischen \IeC {\"O}konomie}{17}{0}{3}
-\beamer@sectionintoc {4}{Preisarten}{18}{0}{4}
+\beamer@subsectionintoc {2}{1}{Die Zusammensetzung des Kapitals}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{Die Reproduktion des Kapitals}{21}{0}{2}
+\beamer@sectionintoc {3}{Kritik der politischen \IeC {\"O}konomie}{25}{0}{3}
+\beamer@sectionintoc {4}{Preisarten}{26}{0}{4}
